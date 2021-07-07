@@ -1,8 +1,9 @@
+import homeStyles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div>
-      <h1>jayjay</h1>
+    <div className={homeStyles.container}>
+      <h1>jayjay star</h1>
     </div>
   )
 }
